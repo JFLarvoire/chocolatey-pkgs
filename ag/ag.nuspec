@@ -13,6 +13,6 @@
     <tags>ag ack cli command-line console developer-tools find findstr foss grep search shell terminal</tags>
     <licenseUrl>https://github.com/JFLarvoire/the_silver_searcher/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <packageSourceUrl>https://github.com/JFLarvoire/chocolatey-pkgs/tree/master/ag</packageSourceUrl>
+    <packageSourceUrl>https://github.com/JFLarvoire/chocolatey-pkgs/tree/main/ag</packageSourceUrl>
   </metadata>
 </package>
