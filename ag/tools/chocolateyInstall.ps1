@@ -18,7 +18,7 @@ if (Test-Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\The Sil
   Throw "Found another instance of ag installed by Winget.`n Please uninstall it first using 'winget uninstall `"The Silver Searcher`"' and retry.`n"
 }
 # Scoop installs shims, like Chocolatey, in the same directory as scoop.ps1
-foreach ($scoop in (get-command scoop.ps1)) {
+foreach ($scoop in (get-command scoop.ps1 -ErrorAction SilentlyContinue)) {
   $dir = (get-item $scoop.Path).DirectoryName
   $ag = Join-Path $dir ag.exe
   if (test-path $ag) {
