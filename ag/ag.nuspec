@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ag</id>
+    <title>The Silver Searcher</title>
+    <version>2.2.5</version>
+    <authors>Geoff Greer, Krzysztof Kowalczyk, Jean-François Larvoire</authors>
+    <owners>Jean-François Larvoire</owners>
+    <summary>The Silver Searcher is like grep or ack, except faster.</summary>
+    <description>The Silver Searcher is a text search tool like grep or ack, except faster. It's written in super-optimized C (like grep) and it's intelligent about entirely skipping files that you don't want to waste time searching (like ack).</description>
+    <projectUrl>https://geoff.greer.fm/ag/</projectUrl>
+    <projectSourceUrl>https://github.com/JFLarvoire/the_silver_searcher</projectSourceUrl>
+    <tags>ag ack cli command-line console developer-tools find findstr foss grep search shell terminal</tags>
+    <licenseUrl>https://github.com/JFLarvoire/the_silver_searcher/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/JFLarvoire/chocolatey-pkgs/tree/master/ag</packageSourceUrl>
+  </metadata>
+</package>
